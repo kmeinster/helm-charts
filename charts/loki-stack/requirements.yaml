@@ -2,7 +2,7 @@ dependencies:
 - name: "loki"
   condition: loki.enabled
   repository: "file://../loki"
-  version: "^2.3.1"
+  version: "^2.3.0"
 - name: "promtail"
   condition: promtail.enabled
   repository: "https://grafana.github.io/helm-charts"
